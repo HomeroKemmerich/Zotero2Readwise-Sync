@@ -9,6 +9,7 @@ on:
 
 jobs:
   zotero-to-readwise-automation:
+    environment: integration
     runs-on: ubuntu-latest
     steps:
       - name: 🍽️ Checkout the repo
